@@ -1,0 +1,150 @@
+/***************************
+GENERAL
+***************************/
+
+body{
+    font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: #333333;
+    background-color: #dfdfdf;
+}
+
+
+/***************************
+HEADER & NAVIGATION
+***************************/
+
+header{
+    background-color: #eeeeee;
+    padding: 0px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+#wrapper{
+    display: flex;
+}
+
+#head{
+    list-style-type: none;
+    text-align: center;
+}
+
+.bar{ 
+    display: inline;
+}
+
+.bar a{
+    padding: 0px 10px 4px 10px;
+    font-weight: 600;
+}
+
+#name a{
+    font-family: 'Monoton', Helvetica, Arial, sans-serif;
+    font-size: 6em;
+    padding: 0px 10px 0px 10px;
+    font-weight: 100;
+}
+
+
+/***************************
+MAIN
+***************************/
+
+main{
+    text-align: center;
+}
+
+#sub{
+    font-size: 3em;
+    display: inline-block;
+    margin: 10px 0px 10px 0px; 
+    background-color: #f0f0f0;
+    padding: 20px 15px 20px 15px;
+    font-weight: 600;
+}
+
+#image-1{
+    text-align: center;
+    width: 225px;
+    height: 225px;
+    padding: 50px 0px;
+}
+
+.heading{
+    font-size: 50px;
+    font-weight: 600;
+    background-color: #f0f0f0;
+    padding: 5px 10px 5px 10px;
+}
+
+.content-spacing{
+    margin: 50px 0px 50px 0px
+}
+
+
+/***************************
+Content: About 
+***************************/
+#About{
+    text-align: center;
+
+}
+
+p #About-text{
+    width: 400px;
+    height: 100px;
+    border: 1px solid #000000;
+}
+
+
+
+/***************************
+Content: Contacts 
+***************************/
+
+a #linkedin-img{
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+
+/***************************
+Content: Projects
+***************************/
+
+
+/***************************
+Content: Skills
+***************************/
+
+
+/***************************
+Content: Pricing
+***************************/
+
+/***************************
+FOOTER
+***************************/
+
+footer{
+    background-color: #eeeeee; 
+}
